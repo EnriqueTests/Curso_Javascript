@@ -6,19 +6,15 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-/*
- * Tipos de datos:
- * undefined, null, boolean, string, symbol, number y object
- */
+var a;
+var b = 2;
 
-// variable que puede ser utilizada en todas partes de nuestro codigo
-var myName = "Beau";
+// Va a mostrar null
+console.log(a);
 
-// cambia de un tipo de dato a otro sin problemas
-myName = 8;
+a = 7;
 
-// variable que solo puede ser utilizada dentro del dominio de una funcion
-let ourName = "freeCodeCamp";
+b = a;
 
-// variable constante
-const pi = 3.14;
+// Va a mostrar 7
+console.log(a);
