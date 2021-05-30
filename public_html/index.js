@@ -6,4 +6,7 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var string = "Vine primero. " + "Vine despues.";
+var cadena = "Esta es la primera cadena. ";
+cadena += "Esta es la segunda cadena.";
+
+console.log(cadena);
