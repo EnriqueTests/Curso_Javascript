@@ -6,7 +6,5 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var miString = "I am a \"double quotes\" string inside \"double quotes\"";
-
-// Imprime con todo y comillas, solamente ignora la barra inclinada
-console.log(miString);
+// Si colocamos comillas dobles dentro de comillas simples o viceversa, nos ahorramos el paso anterior
+var miString = '<a href="http://www.example.com" target="_blank">Link</a>';
