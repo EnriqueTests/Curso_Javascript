@@ -6,4 +6,5 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var coeficiente = 4.4 / 2.0;
+var resto;
+resto = 11 % 3;
