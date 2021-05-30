@@ -6,6 +6,5 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var nuestroDecimal = 5.7;
-
-var miDecimal = 0.009;
+var producto = 2.0 * 2.5;
+console.log(producto);
