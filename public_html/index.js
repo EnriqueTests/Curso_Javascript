@@ -6,5 +6,5 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-// Si colocamos comillas dobles dentro de comillas simples o viceversa, nos ahorramos el paso anterior
-var miString = '<a href="http://www.example.com" target="_blank">Link</a>';
+// Usando varias secuencias de escape en una cadena
+var miString = "FirstLine\n\t\\SecondLine\nThirdLine";
