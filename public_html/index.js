@@ -6,12 +6,12 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-// 3 variables inicializadas
-var a = 5;
-var b = 10;
-var c = "Yo soy una";
+// Declaraciones
+var studlyCapVar;
+var properCamelCase;
+var titleCaseOver;
 
-// Uso de esas variables
-a = a + 1;
-b = b + 5;
-c = c + " cadena";
+// Asignaciones
+studlyCapVar = 10;
+properCamelCase = "Una cadena";
+titleCaseOver = 9000;
