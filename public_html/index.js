@@ -6,10 +6,10 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var a = 5;
-var b = 12;
-var c = 4.6;
+var a = 48;
+var b = 108;
+var c = 33;
 
-a *= 5;
-b *= 3;
-c *= 10;
+a /= 12;
+b /= 4;
+c /= 11;
