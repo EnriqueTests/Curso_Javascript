@@ -6,12 +6,5 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-function construirFrase(sujeto, adjetivo, verbo, adverbio) {
-    var resultado = "";
-    
-    resultado += "El " + sujeto + " " + adjetivo + " " + verbo + " " + adverbio + " a la tienda.";
-    
-    return resultado;
-}
-
-console.log(construirFrase("perri", "grande", "corrio", "rapidamente"));
+// Se pueden mezclar los tipos de dato
+var array = ["John", 23];
