@@ -8,4 +8,4 @@
 
 var cadena = "Hola Mundo";
 
-var ultimaLetraDeLaCadena = cadena[cadena.length - 1];
+var ultimaLetraDeLaCadena = cadena[cadena.length - 2];
