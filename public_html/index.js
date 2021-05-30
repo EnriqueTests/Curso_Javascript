@@ -6,4 +6,6 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var coeficiente = 66 / 33;
+var miVariable = 87;
+
+miVariable++;
