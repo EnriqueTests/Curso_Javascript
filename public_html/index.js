@@ -8,4 +8,4 @@
 
 var miVariable = 87;
 
-miVariable++;
+miVariable--;
