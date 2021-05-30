@@ -6,12 +6,5 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-// Declaraciones
-var studlyCapVar;
-var properCamelCase;
-var titleCaseOver;
-
-// Asignaciones
-studlyCapVar = 10;
-properCamelCase = "Una cadena";
-titleCaseOver = 9000;
+var sum = 10 + 10;
+console.log(sum);
