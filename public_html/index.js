@@ -6,7 +6,7 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var nombre = "Enrique";
-var cadena = "Mi nombre es " + nombre + " y estoy bien";
+var adjetivo = "maravilloso";
+var cadena = "Aprender a programar es ";
 
-console.log(cadena);
+cadena += adjetivo;
