@@ -6,9 +6,8 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var longitudCadena = 0;
+var primeraLetraDeLaCadena = "";
 var cadena = "Enrique";
 
-longitudCadena = cadena.length;
-
-console.log(cadena);
+primeraLetraDeLaCadena = cadena[0];
+console.log(primeraLetraDeLaCadena);
