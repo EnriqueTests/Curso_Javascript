@@ -6,8 +6,7 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var nombre = "Alan";
-var apellido = "Turing";
+var miString = "I am a \"double quotes\" string inside \"double quotes\"";
 
-var miNombre = "Enrique";
-var apellido = "Ayala";
+// Imprime con todo y comillas, solamente ignora la barra inclinada
+console.log(miString);
