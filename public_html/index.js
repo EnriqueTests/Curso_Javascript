@@ -6,4 +6,4 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var diferencia = 45 - 33;
+var producto = 8 * 10;
