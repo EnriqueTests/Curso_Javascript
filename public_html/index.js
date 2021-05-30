@@ -6,5 +6,4 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var producto = 2.0 * 2.5;
-console.log(producto);
+var coeficiente = 4.4 / 2.0;
