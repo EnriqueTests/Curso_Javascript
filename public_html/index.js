@@ -6,15 +6,5 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var a;
-var b = 2;
-
-// Va a mostrar null
-console.log(a);
-
-a = 7;
-
-b = a;
-
-// Va a mostrar 7
-console.log(a);
+// Variable inicializada
+var a = 9;
