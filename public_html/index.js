@@ -6,6 +6,6 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var miVariable = 87;
+var nuestroDecimal = 5.7;
 
-miVariable--;
+var miDecimal = 0.009;
