@@ -7,3 +7,14 @@
 // http://localhost:8383/Curso_Javascript/index.html
 
 console.log("Hello from Javascript");
+
+var number = 5; // Comentario de una sola linea
+
+/*
+ * Comentario
+ * de
+ * varias
+ * lineas
+ */
+
+number - 9;
