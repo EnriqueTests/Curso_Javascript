@@ -6,4 +6,4 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var producto = 8 * 10;
+var coeficiente = 66 / 33;
