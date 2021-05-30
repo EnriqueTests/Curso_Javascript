@@ -6,6 +6,12 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var cadena = "Hola Mundo";
+function construirFrase(sujeto, adjetivo, verbo, adverbio) {
+    var resultado = "";
+    
+    resultado += "El " + sujeto + " " + adjetivo + " " + verbo + " " + adverbio + " a la tienda.";
+    
+    return resultado;
+}
 
-var ultimaLetraDeLaCadena = cadena[cadena.length - 2];
+console.log(construirFrase("perri", "grande", "corrio", "rapidamente"));
