@@ -6,7 +6,9 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var adjetivo = "maravilloso";
-var cadena = "Aprender a programar es ";
+var longitudCadena = 0;
+var cadena = "Enrique";
 
-cadena += adjetivo;
+longitudCadena = cadena.length;
+
+console.log(cadena);
