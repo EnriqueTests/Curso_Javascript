@@ -6,7 +6,6 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var cadena = "Jola Mundo";
+var cadena = "Hola Mundo";
 
-// Cadena corregida
-cadena = "Hola Mundo";
+var ultimaLetraDeLaCadena = cadena[cadena.length - 1];
