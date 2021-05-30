@@ -6,8 +6,7 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var primeraLetraDeLaCadena = "";
-var cadena = "Enrique";
+var cadena = "Jola Mundo";
 
-primeraLetraDeLaCadena = cadena[0];
-console.log(primeraLetraDeLaCadena);
+// Cadena corregida
+cadena = "Hola Mundo";
