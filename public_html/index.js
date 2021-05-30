@@ -6,5 +6,4 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-// Usando varias secuencias de escape en una cadena
-var miString = "FirstLine\n\t\\SecondLine\nThirdLine";
+var string = "Vine primero. " + "Vine despues.";
