@@ -6,15 +6,19 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-console.log("Hello from Javascript");
-
-var number = 5; // Comentario de una sola linea
-
 /*
- * Comentario
- * de
- * varias
- * lineas
+ * Tipos de datos:
+ * undefined, null, boolean, string, symbol, number y object
  */
 
-number - 9;
+// variable que puede ser utilizada en todas partes de nuestro codigo
+var myName = "Beau";
+
+// cambia de un tipo de dato a otro sin problemas
+myName = 8;
+
+// variable que solo puede ser utilizada dentro del dominio de una funcion
+let ourName = "freeCodeCamp";
+
+// variable constante
+const pi = 3.14;
