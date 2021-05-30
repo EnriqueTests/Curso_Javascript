@@ -6,7 +6,7 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var cadena = "Esta es la primera cadena. ";
-cadena += "Esta es la segunda cadena.";
+var nombre = "Enrique";
+var cadena = "Mi nombre es " + nombre + " y estoy bien";
 
 console.log(cadena);
