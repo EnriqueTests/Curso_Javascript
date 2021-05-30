@@ -6,10 +6,8 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var a = 48;
-var b = 108;
-var c = 33;
+var nombre = "Alan";
+var apellido = "Turing";
 
-a /= 12;
-b /= 4;
-c /= 11;
+var miNombre = "Enrique";
+var apellido = "Ayala";
