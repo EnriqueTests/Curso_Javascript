@@ -6,5 +6,4 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var sum = 10 + 10;
-console.log(sum);
+var diferencia = 45 - 33;
