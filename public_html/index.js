@@ -6,12 +6,12 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-function operadorAnd(val) {
-    if (val <= 50 && val >= 25) {
-        return "Si";
+function operadorOr(val) {
+    if (val < 10 || val > 20) {
+        return "Fuera del rango";
     }
 
-    return "No";
+    return "Dentro del rango";
 }
 
-console.log(operadorAnd(10));
+console.log(operadorOr(15));
