@@ -6,5 +6,4 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-// Se pueden mezclar los tipos de dato
-var array = ["John", 23];
+var arrayBidimensional = [["Bulls", 23], ["White Sox", 45]];
