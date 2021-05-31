@@ -6,4 +6,7 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var arrayBidimensional = [["Bulls", 23], ["White Sox", 45]];
+var arreglo = [50,60,70];
+var dato = arreglo[0];
+
+console.log(dato);
