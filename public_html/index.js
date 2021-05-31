@@ -6,11 +6,9 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-// Nos quedamos en el minuto 46:30
+var array = ["Stimpson", "J", "cat"];
+// Equivale a ["Stimpson", "J", "cat", ["happy", "joy"]]
+array.push(["happy", "joy"]);
 
-var arreglo = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12],13,14]];
-
-var dato = arreglo[2][1];
-
-// Imprime 8
-console.log(arreglo[2][1]);
+var miArray = [["John", 23], ["cat", 2]];
+miArray.push(["dog", 3]);
