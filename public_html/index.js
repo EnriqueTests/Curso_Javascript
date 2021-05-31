@@ -6,14 +6,10 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-function menos7(num) {
-    return num - 7;
+var sum = 0;
+
+function sumar3() {
+    sum += 3;
+
+    // Retorna undefined
 }
-
-console.log(menos7(10));
-
-function por5(num) {
-    return num * 5;
-}
-
-console.log(por5(5));
