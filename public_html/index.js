@@ -6,13 +6,9 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-// Se puede ver desde cualquier parte
-var global = 10;
-
-function funcion() {
-    // Se puede ver desde cualquier parte
-    globalA = 20;
-
-    // Solo puede ser vista desde dentro de esta funcion
-    var globalB = 10;
+function alcanceLocal() {
+    var variable = 5;
+    console.log(variable);
 }
+
+alcanceLocal();
