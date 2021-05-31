@@ -6,10 +6,16 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var cambio = 0;
+function siguienteEnLinea(arreglo, item) {
+    // Agrega el elemento al final
+    arreglo.push(item);
 
-function cambiar(num) {
-    return (num + 5) / 3;
+    // Elimina el primer elemento y lo retorna
+    return arreglo.shift();
 }
 
-cambio = cambiar(10);
+var probarArray = [1,2,3,4,5];
+
+console.log("Antes: " + JSON.stringify(probarArray));
+console.log(siguienteEnLinea(arreglo, 6));
+console.log("Despues: " + JSON.stringify(probarArray));
