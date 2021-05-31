@@ -6,15 +6,4 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var array = ["Stimpson", "J", "cat"];
-
-// elementoRemovido es igual a "Stimpson"
-// y el array equivale a ["J", "cat"]
-var elementoRemovido = array.shift();
-
-// Lo agrega al inicio de array
-array.unshift("Happy");
-
-var miArray = [["John", 23], ["cat", 2]];
-miArray.shift();
-miArray.unshift(["Paul", 35]);
+var lista = [["cereal", 3], ["leche", 2], ["bananas", 3], ["jugo", 2], ["huevos", 5]];
