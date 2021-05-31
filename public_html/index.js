@@ -6,10 +6,13 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-function funcionConArgumentos(a, b) {
-    console.log(a + b);
-}
+// Se puede ver desde cualquier parte
+var global = 10;
 
-funcionConArgumentos(10, 5);
-funcionConArgumentos(1, 3);
-funcionConArgumentos(4, 7);
+function funcion() {
+    // Se puede ver desde cualquier parte
+    globalA = 20;
+
+    // Solo puede ser vista desde dentro de esta funcion
+    var globalB = 10;
+}
