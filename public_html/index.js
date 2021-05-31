@@ -6,8 +6,11 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var arreglo = [18,64,99];
+// Nos quedamos en el minuto 46:30
 
-arreglo[0] = 45;
+var arreglo = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12],13,14]];
 
-console.log(arreglo[0]);
+var dato = arreglo[2][1];
+
+// Imprime 8
+console.log(arreglo[2][1]);
