@@ -6,8 +6,8 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-function comprobarValor(val) {
-    if(val == 12) {
+function comprobarValorEstricto(val) {
+    if(val === 12) {
         return "Igual";
     }
 
@@ -15,4 +15,4 @@ function comprobarValor(val) {
 }
 
 // Va a mostrar "No son iguales"
-console.log(comprobarValor(10));
+console.log(comprobarValor("12"));
