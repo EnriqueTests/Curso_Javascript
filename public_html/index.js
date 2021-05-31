@@ -6,16 +6,14 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var prenda = "Camisa";
-
-function miVestimenta() {
-    var prenda = "Sueter";
-
-    return prenda;
+function menos7(num) {
+    return num - 7;
 }
 
-// Imprime "Sueter"
-console.log(miVestimenta());
+console.log(menos7(10));
 
-// Imprime "Camisa"
-console.log(prenda);
+function por5(num) {
+    return num * 5;
+}
+
+console.log(por5(5));
