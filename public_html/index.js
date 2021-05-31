@@ -6,10 +6,10 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-function funcionReusable() {
-    console.log("Hola mundo");
+function funcionConArgumentos(a, b) {
+    console.log(a + b);
 }
 
-funcionReusable();
-funcionReusable();
-funcionReusable();
+funcionConArgumentos(10, 5);
+funcionConArgumentos(1, 3);
+funcionConArgumentos(4, 7);
