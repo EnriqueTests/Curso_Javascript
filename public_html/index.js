@@ -6,11 +6,13 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-function booleanos(condicion) {
-    if(condicion) {
-        return "Verdadero";
+function comprobarValor(val) {
+    if(val == 12) {
+        return "Igual";
     }
-    return "Falso";
+
+    return "No son iguales";
 }
 
-console.log(booleanos(true));
+// Va a mostrar "No son iguales"
+console.log(comprobarValor(10));
