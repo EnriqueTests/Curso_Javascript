@@ -6,10 +6,10 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var sum = 0;
+var cambio = 0;
 
-function sumar3() {
-    sum += 3;
-
-    // Retorna undefined
+function cambiar(num) {
+    return (num + 5) / 3;
 }
+
+cambio = cambiar(10);
