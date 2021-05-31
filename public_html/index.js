@@ -6,16 +6,18 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-function usoDeElse(val) {
+function usoDeIfElse(val) {
     var resultado = "";
 
-    if (val > 5) {
-        resultado = "Mayor de 5";
+    if (val > 10) {
+        resultado = "Mayor de 10";
+    } else if(val < 5) {
+        resultado = "Menor de 5";
     } else {
-        resultado = "5 o menor";
+        resultado = "Entre 5 y 10";
     }
 
     return resultado;
 }
 
-console.log(usoDeElse(4));
+console.log(usoDeIfElse(7));
