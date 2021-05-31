@@ -6,13 +6,13 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-function comprobarValorEstricto(val) {
-    if(val === 12) {
-        return "Igual";
+function comprobarValor(val) {
+    if(val != 99) {
+        return "No son iguales";
     }
 
-    return "No son iguales";
+    return "Son iguales";
 }
 
 // Va a mostrar "No son iguales"
-console.log(comprobarValor("12"));
+console.log(comprobarValor(98));
