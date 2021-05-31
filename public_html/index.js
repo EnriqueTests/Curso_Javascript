@@ -12,5 +12,9 @@ var array = ["Stimpson", "J", "cat"];
 // y el array equivale a ["J", "cat"]
 var elementoRemovido = array.shift();
 
+// Lo agrega al inicio de array
+array.unshift("Happy");
+
 var miArray = [["John", 23], ["cat", 2]];
-var elementoRemovidoDeMiArray = miArray.shift();
+miArray.shift();
+miArray.unshift(["Paul", 35]);
