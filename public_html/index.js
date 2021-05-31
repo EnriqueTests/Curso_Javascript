@@ -6,9 +6,16 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-function alcanceLocal() {
-    var variable = 5;
-    console.log(variable);
+var prenda = "Camisa";
+
+function miVestimenta() {
+    var prenda = "Sueter";
+
+    return prenda;
 }
 
-alcanceLocal();
+// Imprime "Sueter"
+console.log(miVestimenta());
+
+// Imprime "Camisa"
+console.log(prenda);
