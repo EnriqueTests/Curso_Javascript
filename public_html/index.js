@@ -6,7 +6,8 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var arreglo = [50,60,70];
-var dato = arreglo[0];
+var arreglo = [18,64,99];
 
-console.log(dato);
+arreglo[0] = 45;
+
+console.log(arreglo[0]);
