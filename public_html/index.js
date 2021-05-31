@@ -6,16 +6,16 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-function operadorMenorQue(val) {
-    if (val < 25) {
-        return "Menor que 25";
+function operadorMenorIgualQue(val) {
+    if (val <= 12) {
+        return "Menor o igual a 12";
     }
 
-    if (val < 55) {
-        return "Menor que 55";
+    if (val <= 24) {
+        return "Menor o igual a 24";
     }
 
-    return "55 o mayor";
+    return "Mas de 24";
 }
 
-console.log(operadorMayorQue(10));
+console.log(operadorMenorIgualQue(10));
