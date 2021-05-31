@@ -6,13 +6,16 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-function comprobarValorEstricto(val) {
-    if(val !== 99) {
-        return "No son iguales";
+function operadorMayorQue(val) {
+    if (val > 100) {
+        return "Arriba de 100";
     }
 
-    return "Son iguales";
+    if (val > 10) {
+        return "Arriba de 10";
+    }
+
+    return "10 o menor";
 }
 
-// Va a mostrar "No son iguales"
-console.log(comprobarValor("99"));
+console.log(operadorMayorQue(10));
