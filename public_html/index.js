@@ -6,12 +6,16 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-function operadorOr(val) {
-    if (val < 10 || val > 20) {
-        return "Fuera del rango";
+function usoDeElse(val) {
+    var resultado = "";
+
+    if (val > 5) {
+        resultado = "Mayor de 5";
+    } else {
+        resultado = "5 o menor";
     }
 
-    return "Dentro del rango";
+    return resultado;
 }
 
-console.log(operadorOr(15));
+console.log(usoDeElse(4));
