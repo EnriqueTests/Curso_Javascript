@@ -6,6 +6,11 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-function booleanos() {
-    return true;
+function booleanos(condicion) {
+    if(condicion) {
+        return "Verdadero";
+    }
+    return "Falso";
 }
+
+console.log(booleanos(true));
