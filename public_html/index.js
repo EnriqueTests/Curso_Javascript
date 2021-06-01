@@ -6,10 +6,12 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-function esMenor(a, b) {
+function abComprobacion(a, b) {
+    if(a < 0 || b < 0) {
+        return undefined;
+    }
 
-    // regresa true si se cumple
-    return a < b;
+    return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
 }
 
-console.log(esMenor(0, 15));
+console.log(abComprobacion(0, 15));
