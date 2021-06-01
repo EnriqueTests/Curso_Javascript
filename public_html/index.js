@@ -13,5 +13,5 @@ var perro = {
     "friends": ["todos"]
 };
 
-var nombre = perro["name"];
-var piernas = perro["legs"];
+var propiedad_1 = "name";
+var nombre = perro[propiedad_1];
