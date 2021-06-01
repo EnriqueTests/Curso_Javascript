@@ -12,3 +12,6 @@ var perro = {
     "tails": 1,
     "friends": ["todos"]
 };
+
+var nombre = perro.name;
+var piernas = perro.legs;
