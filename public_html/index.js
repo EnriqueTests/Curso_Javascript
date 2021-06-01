@@ -13,5 +13,4 @@ var perro = {
     "friends": ["todos"]
 };
 
-perro.bork = "bow-wow";
-perro['color'] = "brown";
+delete perro.name;
