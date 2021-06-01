@@ -6,19 +6,18 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-function funcionObservar(val) {
-    var resultado = "";
+var objeto = {
+    gift: "pony",
+    pet: "kitten",
+    bed: "sleigh"
+};
 
-    var observar = {
-        "alpha": "Adams",
-        "bravo": "Boston",
-        "charlie": "Chicago"
+function checarPropiedad(propiedad) {
+    if(objeto.hasOwnProperty(propiedad)) {
+        return objeto[propiedad];
+    } else {
+        return "No hallada";
     }
-
-    resultado = observar[val];
-
-    return resultado;
 }
 
-// Mostrara "Chicago"
-console.log(funcionObservar("charlie"));
+console.log(checarPropiedad("gift"));
