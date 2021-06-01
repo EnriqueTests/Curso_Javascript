@@ -6,11 +6,19 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var perro = {
-    "name": "Camper",
-    "legs": 4,
-    "tails": 1,
-    "friends": ["todos"]
-};
+function funcionObservar(val) {
+    var resultado = "";
 
-delete perro.name;
+    var observar = {
+        "alpha": "Adams",
+        "bravo": "Boston",
+        "charlie": "Chicago"
+    }
+
+    resultado = observar[val];
+
+    return resultado;
+}
+
+// Mostrara "Chicago"
+console.log(funcionObservar("charlie"));
