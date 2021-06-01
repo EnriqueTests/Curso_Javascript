@@ -6,18 +6,26 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-function usoOrdenadoDeIfElse(val) {
-    var resultado = "";
+function usoDeSwitch(val) {
+    var respuesta = "";
 
-    if (val < 5) {
-        resultado = "Menor de 5";
-    } else if(val < 10) {
-        resultado = "Menor de 10";
-    } else {
-        resultado = "Entre 5 y 10";
+    switch(val) {
+        case 1:
+            respuesta = "alpha";
+            break;
+        case 2:
+            respuesta = "beta";
+            break;
+        case 3:
+            respuesta = "gamma";
+            break;
+        case 4:
+            respuesta = "delta";
+            break;
+
     }
 
-    return resultado;
+    return respuesta;
 }
 
-console.log(usoOrdenadoDeIfElse(7));
+console.log(UsoDeSwitch(1));
