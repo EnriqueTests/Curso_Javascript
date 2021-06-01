@@ -22,7 +22,8 @@ function usoDeSwitch(val) {
         case 4:
             respuesta = "delta";
             break;
-
+        default:
+            respuesta = "Por defecto";
     }
 
     return respuesta;
