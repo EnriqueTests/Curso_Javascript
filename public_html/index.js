@@ -6,18 +6,18 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var objeto = {
-    gift: "pony",
-    pet: "kitten",
-    bed: "sleigh"
+var almacen = {
+    "car": {
+        "inside": {
+            "glove box": "map",
+            "passanger seat": "crumbs"
+        },
+        "outside": {
+            "trunk": "jack"
+        }
+    }
 };
 
-function checarPropiedad(propiedad) {
-    if(objeto.hasOwnProperty(propiedad)) {
-        return objeto[propiedad];
-    } else {
-        return "No hallada";
-    }
-}
+var globeBoxContents = almacen.car.inside["glove box"];
 
-console.log(checarPropiedad("gift"));
+console.log(globeBoxContents);
