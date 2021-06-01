@@ -6,12 +6,9 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-function abComprobacion(a, b) {
-    if(a < 0 || b < 0) {
-        return undefined;
-    }
-
-    return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
-}
-
-console.log(abComprobacion(0, 15));
+var perro = {
+    "name": "Camper",
+    "legs": 4,
+    "tails": 1,
+    "friends": ["todos"]
+};
