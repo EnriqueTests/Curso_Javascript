@@ -13,4 +13,5 @@ var perro = {
     "friends": ["todos"]
 };
 
-perro.name = "Bruno";
+perro.bork = "bow-wow";
+perro['color'] = "brown";
