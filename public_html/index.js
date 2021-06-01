@@ -6,18 +6,24 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var almacen = {
-    "car": {
-        "inside": {
-            "glove box": "map",
-            "passanger seat": "crumbs"
-        },
-        "outside": {
-            "trunk": "jack"
-        }
+var misPlantas = [
+    {
+        type: "flowers",
+        list: [
+            "rose",
+            "tulip",
+            "dandelion"
+        ]
+    },
+    {
+        type: "trees",
+        list: [
+            "fir",
+            "pine",
+            "barch"
+        ]
     }
-};
+];
 
-var globeBoxContents = almacen.car.inside["glove box"];
-
-console.log(globeBoxContents);
+// Muestra "pine"
+var segundoArbol = misPlantas[1].list[1];
