@@ -11,15 +11,23 @@ function usoDeSwitch(val) {
 
     switch(val) {
         case 1:
+        case 2:
+        case 3:
             respuesta = "alpha";
             break;
-        case 2:
+        case 4:
+        case 5:
+        case 6:
             respuesta = "beta";
             break;
-        case 3:
+        case 7:
+        case 8:
+        case 9:
             respuesta = "gamma";
             break;
-        case 4:
+        case 10:
+        case 11:
+        case 12:
             respuesta = "delta";
             break;
         default:
