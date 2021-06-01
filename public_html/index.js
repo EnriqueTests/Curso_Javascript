@@ -6,35 +6,10 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-function usoDeSwitch(val) {
-    var respuesta = "";
+function esMenor(a, b) {
 
-    switch(val) {
-        case 1:
-        case 2:
-        case 3:
-            respuesta = "alpha";
-            break;
-        case 4:
-        case 5:
-        case 6:
-            respuesta = "beta";
-            break;
-        case 7:
-        case 8:
-        case 9:
-            respuesta = "gamma";
-            break;
-        case 10:
-        case 11:
-        case 12:
-            respuesta = "delta";
-            break;
-        default:
-            respuesta = "Por defecto";
-    }
-
-    return respuesta;
+    // regresa true si se cumple
+    return a < b;
 }
 
-console.log(UsoDeSwitch(1));
+console.log(esMenor(0, 15));
