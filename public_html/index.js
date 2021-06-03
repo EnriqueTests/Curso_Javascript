@@ -8,11 +8,8 @@
 
 var array = [];
 
-var i = 0;
-
-while(i < 5) {
+for(var i = 0; i < 5; i++) {
     array.push(i);
-    i++;
 }
 
 console.log(array);
