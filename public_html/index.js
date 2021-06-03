@@ -6,10 +6,11 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var array = [];
+var array = [2, 3, 4, 5, 6];
+var total = 0;
 
-for(var i = 10; i > 0; i -= 2) {
-    array.push(i);
+for(var i = 0; i < array.length; i++) {
+    total += array[i];
 }
 
-console.log(array);
+console.log(total);
