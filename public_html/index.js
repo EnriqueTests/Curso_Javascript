@@ -6,17 +6,22 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-function checkScope() {
+function freezeObj() {
     "use strict";
-    let i = "function scope";
 
-    if(true) {
-        let i = "block scope";
-        console.log("Block scope i is: ", i);
+    const MATH_CONSTANTS = {
+        PI: 3.14
+    };
+
+    Object.freeze(MATH_CONSTANTS);
+
+    try {
+        MATH_CONSTANTS.PI = 99;
+    } catch (ex) {
+        console.log(ex);
     }
 
-    console.log("Function scope i is: ", i);
-    return i;
+    return MATH_CONSTANTS.PI;
 }
 
-checkScope();
+const PI = freezeObj();
