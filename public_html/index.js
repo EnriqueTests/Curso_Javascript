@@ -8,7 +8,7 @@
 
 var array = [];
 
-for(var i = 10; i > 10; i -= 2) {
+for(var i = 10; i > 0; i -= 2) {
     array.push(i);
 }
 
