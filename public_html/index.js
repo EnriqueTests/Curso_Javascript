@@ -6,8 +6,8 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-function randomFraction() {
-    return Math.random();
+function randomWholeNum() {
+    return Math.floor(Math.random() * 10);
 }
 
-console.log(randomFraction());
+console.log(randomWholeNum());
