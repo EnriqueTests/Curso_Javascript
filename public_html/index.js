@@ -7,7 +7,7 @@
 // http://localhost:8383/Curso_Javascript/index.html
 
 function convertToInteger(str) {
-    return parseInt(str);
+    return parseInt(str, 2);
 }
 
-convertToInteger("56");
+convertToInteger("10011");
