@@ -6,11 +6,18 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var array = [2, 3, 4, 5, 6];
-var total = 0;
+function multiplicarTodo(array) {
+    var producto = 1;
 
-for(var i = 0; i < array.length; i++) {
-    total += array[i];
+    for (var i = 0; i < array.length; i++) {
+        for (var j = 0; j < array[i].length; j++) {
+            producto *= array[i][j];
+        }
+    }
+
+    return producto;
 }
 
-console.log(total);
+var producto = multiplicarTodo([[1, 2], [3, 4], [5, 6, 7]]);
+
+console.log(producto);
