@@ -6,8 +6,10 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-function randomWholeNum() {
-    return Math.floor(Math.random() * 10);
+function randomRange(myMin, myMax) {
+    return Math.floor(Math.random() * (myMax - myMin + 1)) + myMin;
 }
 
-console.log(randomWholeNum());
+var myRandom = randomRange(5, 15);
+
+console.log(myRandom);
