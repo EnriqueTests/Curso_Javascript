@@ -6,15 +6,25 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
+var voxel = {x: 3.6, y: 7.4, z: 6.54};
 
-let arr2;
+var x = voxel.x; // x = 3.6
+var y = voxel.y; // y = 7.4
+var z = voxel.z; // z = 6.54
 
-(function() {
-    // Hacemos una copia en arr2
-    arr2 = [...arr1];
-    
-    arr1[0] = 'potato';
-})();
+const { x : a, y : b, z : c} = voxel; // a = 3.6, b = 7.4, c = 6.54
 
-console.log(arr2);
+const AVG_TEMPERATURES = {
+    today: 77.5,
+    tomorrow: 79
+};
+
+function getTempOfTmrw(avgTemperatures) {
+    "use strict";
+
+    const { tomorrow : tempOfTomorrow } = avgTemperatures;
+
+    return tempOfTomorrow;
+}
+
+console.log(getTempOfTmrw(AVG_TEMPERATURES));
