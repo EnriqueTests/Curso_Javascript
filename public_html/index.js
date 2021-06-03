@@ -6,16 +6,17 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-let catName = "Quincy";
-let quote;
+function checkScope() {
+    "use strict";
+    let i = "function scope";
 
-catName = "Beau";
+    if(true) {
+        let i = "block scope";
+        console.log("Block scope i is: ", i);
+    }
 
-function catTalk() {
-    "use strict"
-
-    catName = "Oliver";
-    quote = catName + " says Meow!";
+    console.log("Function scope i is: ", i);
+    return i;
 }
 
-catTalk();
+checkScope();
