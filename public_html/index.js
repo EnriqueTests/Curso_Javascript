@@ -6,10 +6,16 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-function checkEqual(a, b) {
-    // return a === b ? true : false;
+let catName = "Quincy";
+let quote;
 
-    return a === b;
+catName = "Beau";
+
+function catTalk() {
+    "use strict"
+
+    catName = "Oliver";
+    quote = catName + " says Meow!";
 }
 
-checkEqual(1, 2);
+catTalk();
