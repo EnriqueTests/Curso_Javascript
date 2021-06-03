@@ -6,8 +6,10 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-function convertToInteger(str) {
-    return parseInt(str, 2);
+function checkEqual(a, b) {
+    // return a === b ? true : false;
+
+    return a === b;
 }
 
-convertToInteger("10011");
+checkEqual(1, 2);
