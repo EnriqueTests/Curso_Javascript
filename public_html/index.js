@@ -6,10 +6,8 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-function randomRange(myMin, myMax) {
-    return Math.floor(Math.random() * (myMax - myMin + 1)) + myMin;
+function convertToInteger(str) {
+    return parseInt(str);
 }
 
-var myRandom = randomRange(5, 15);
-
-console.log(myRandom);
+convertToInteger("56");
