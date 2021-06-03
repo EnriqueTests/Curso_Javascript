@@ -6,24 +6,47 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-var misPlantas = [
-    {
-        type: "flowers",
-        list: [
-            "rose",
-            "tulip",
-            "dandelion"
+var collection = {
+    "2548": {
+        "album": "Slipper When Wet",
+        "artist": "Bon Jovi",
+        "tracks": [
+            "Let It Rock",
+            "You Give Love a Bad Name"
         ]
     },
-    {
-        type: "trees",
-        list: [
-            "fir",
-            "pine",
-            "barch"
+    "2468": {
+        "album": "1999",
+        "artist": "Prince",
+        "tracks": [
+            "1999",
+            "Little Red Corvette"
         ]
+    },
+    "1245": {
+        "artist": "Robert Palmer",
+        "tracks": [ ]
+    },
+    "5439": {
+        "album": "ABBA Gold"
     }
-];
+};
 
-// Muestra "pine"
-var segundoArbol = misPlantas[1].list[1];
+// Copia de la coleccion para pruebas
+var collectionCopy = JSON.parse(JSON.stringify(collection));
+
+function updateRecords(id, prop, value) {
+    if(value === "") {
+        delete collection[id][prop];
+    } else if(prop === "tracks") {
+        collection[id][prop] = collection[id][prop] || [];
+        collection[id][prop].push(value);
+    } else {
+        collection[id][prop] = value;
+    }
+
+    return collection;
+}
+
+updateRecords(2468, "tracks", "test");
+console.log(updateRecords(5439, "artist", "ABBA"));
