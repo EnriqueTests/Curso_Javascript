@@ -6,13 +6,11 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-const realNumberArray = [4, 5.6, -9.8, 3.14, 42, 6, 8.34, -2];
+const increment = (function() {
+    return function increment(number, value = 1) {
+        return number + value;
+    }
+})();
 
-const squareList = (arr) => {
-    const squqredIntegers = arr.filter(num => Number.isInteger(num) && num > 0).map(x => x * x);
-    
-    return squqredIntegers;
-};
-
-const squaredIntegers = squareList(realNumberArray);
-console.log(squaredIntegers);
+console.log(increment(5, 2));
+console.log(increment(5));
