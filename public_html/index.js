@@ -6,13 +6,26 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-const bicycle = {
-    gear: 2,
-    setGear(newGear) {
-        "use strict";
-        this.gear = newGear;
+class SpaceShuttle {
+    constructor(targetPlane) {
+        this.targetPlane = targetPlane;
     }
-};
+}
 
-bicycle.setGear(3);
-console.log(bicycle.gear);
+var zeus = new SpaceShuttle('Jupiter');
+
+console.log(zeus.targetPlane);
+
+function makeClass() {
+    class Vegetable {
+        constructor(name) {
+            this.name =  name;
+        }
+    }
+
+    return Vegetable;
+}
+
+const Vegetable = makeClass();
+const carrot = new Vegetable('carrot');
+console.log(carrot.name);
