@@ -6,26 +6,40 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-class SpaceShuttle {
-    constructor(targetPlane) {
-        this.targetPlane = targetPlane;
+class Book {
+    constructor(author) {
+        this._author = author;
+    }
+
+    get writer() {
+        return this._author;
+    }
+
+    set writer(updatedAuthor) {
+        this._author = updatedAuthor;
     }
 }
 
-var zeus = new SpaceShuttle('Jupiter');
-
-console.log(zeus.targetPlane);
-
 function makeClass() {
-    class Vegetable {
-        constructor(name) {
-            this.name =  name;
+    class Thermostat {
+        constructor(temp) {
+            this._temp = 5/9 * (temp - 32);
+        }
+
+        get temperature() {
+            return this._temp;
+        }
+
+        set temperature(updatedTemp) {
+            this._temp = updatedTemp;
         }
     }
 
-    return Vegetable;
+    return Thermostat;
 }
 
-const Vegetable = makeClass();
-const carrot = new Vegetable('carrot');
-console.log(carrot.name);
+const Thermostat = makeClass();
+const thermos = new Thermostat(76);
+let temp = thermos.temperature;
+thermos.temperature = 76;
+temp = thermos.temperature;
