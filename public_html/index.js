@@ -6,20 +6,32 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-const stats = {
-    max: 56.78,
-    standar_deviation: 4.34,
-    median: 34.54,
-    mode: 23.87,
-    min: -0.75,
-    average: 35.85
+const person = {
+    name: "Zodiac Hasbro",
+    age: 56
 };
 
-const half = (function() {
-    return function half({ max, min}) {
-        return (max + min) / 2.0;
-    };
-})();
+const greeting = `Hello, my name is ${person.name}!
+I am ${person.age} years old.`;
 
-console.log(stats);
-console.log(half(stats));
+console.log(greeting);
+
+const result = {
+    success: ["max-length", "no-amd", "prefer-arrow-functions"],
+    failure: ["no-var", "var-on-top", "linebreak"],
+    skipped: ["id-blacklist", "no-dup-keys"]
+};
+
+function makeList(arr) {
+    const resultDisplayArray = [];
+
+    for(let i = 0; i < arr.length; i++) {
+        resultDisplayArray.push(`<li class="text-warning">${arr[i]}</li>`);
+    }
+
+    return resultDisplayArray;
+}
+
+const resultDisplayArray = makeList(result.failure);
+
+console.log(resultDisplayArray);
