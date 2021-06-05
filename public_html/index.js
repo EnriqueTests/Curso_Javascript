@@ -6,17 +6,13 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-const createPerson = (name, age, gender) => {
-    return {
-        name: name,
-        age: age,
-        gender: gender
-    };
+const bicycle = {
+    gear: 2,
+    setGear(newGear) {
+        "use strict";
+        this.gear = newGear;
+    }
 };
 
-/**
- * Otra forma mas ligera
- * const createPerson = (name, age, gender) => ({name, age, gender});
- */
-
-console.log(createPerson("Zodiac Hasbro", 56, "male"));
+bicycle.setGear(3);
+console.log(bicycle.gear);
