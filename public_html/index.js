@@ -6,8 +6,8 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-import { capitalizeString } from "./string_function"
+import * as capitalizeStrings from "./string_function"
 
-const cap = capitalizeString("hello!");
+const cap = capitalizeStrings.capitalizeString("hello!");
 
 console.log(cap);
