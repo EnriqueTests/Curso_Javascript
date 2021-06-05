@@ -6,14 +6,20 @@
 
 // http://localhost:8383/Curso_Javascript/index.html
 
-const source = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const stats = {
+    max: 56.78,
+    standar_deviation: 4.34,
+    median: 34.54,
+    mode: 23.87,
+    min: -0.75,
+    average: 35.85
+};
 
-function removeFirstTwo(list) {
-    const [ , , ...arr] = list;
+const half = (function() {
+    return function half({ max, min}) {
+        return (max + min) / 2.0;
+    };
+})();
 
-    return arr;
-}
-
-const arr = removeFirstTwo(source);
-console.log(arr);
-console.log(source);
+console.log(stats);
+console.log(half(stats));
